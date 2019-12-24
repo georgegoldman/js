@@ -1,0 +1,21 @@
+#inc{
+    background-color: lightskyblue;
+    width: 2in;
+}
+#exp{
+    background-color: lightcoral;
+    width: 2in;
+}
+#value{
+    width: 2cm;
+}
+
+#inc-dtl,#exp-dtl{
+    display: inline-block
+}
+#exp-dtl{
+    margin-left: 1in
+}
+#inc-dtl{
+    margin-right: 1in;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+    <center>
+
+        <h4>available budget</h4>
+        <h2>+0.00</h2>
+
+        <p id="inc">income +0.00</p>
+        <p id="exp">expenses -0.00</p>
+
+        <select name="" id="add_type">
+            <option value="inc">+</option>
+            <option value="exp">-</option>
+        </select>
+
+        <input type="text" name="" id="add_description" placeholder="enter description">
+        <input type="number" name="" class="add_value" placeholder="value">
+        <button class="add_btn">updates</button><br>
+
+        <div id="inc-dtl">
+
+            <h3>income</h3>
+            <p id="inc_info"></p>
+
+        </div>
+        
+        <div id="exp-dtl">
+
+            <h3>expenses</h3>
+            <p id="exp_info"></p>
+
+
+        </div>
+
+    </center>
+    
+    <script src="budget_app.js"></script>
+</body>
+</html>
